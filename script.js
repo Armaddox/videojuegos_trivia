@@ -20,7 +20,7 @@ const questions = [
         correctAnswer: "Bowser"
     },
     {
-        question: "¿Cuál es el nombre del estudio encargado destras de Minecraft?",
+        question: "¿Cuál es el nombre del estudio encargado detras de Minecraft?",
         choices: ["Rockstar Games", "Nintendo", "Mojang Studios", "EA Mobile"],
         correctAnswer: "Mojang Studios"
     },
