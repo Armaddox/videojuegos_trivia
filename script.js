@@ -25,7 +25,7 @@ const questions = [
         correctAnswer: "Mojang Studios"
     },
     {
-        question: "¿Cuál es el planeta natal de los Marios en la serie de juegos de Mario?",
+        question: "¿Cuál es el planeta natal de Mario y de Luigi en la serie de juegos de Mario?",
         choices: ["Mushroom Kingdom", "Koopa Troopa Land", "Yoshi's Island", "Donut Plains"],
         correctAnswer: "Mushroom Kingdom"
     },
