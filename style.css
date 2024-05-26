@@ -47,39 +47,39 @@ section {
     padding: 20px;
     text-align: justify;
 }
-.game-images {
+game-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
-.game-images img {
+game-images img {
     max-width: 150px;
     height: auto;
     margin: 10px;
     transition: transform 0.3s ease;
 }
-.game-images img:hover {
+game-images img:hover {
     transform: scale(1.2); 
 }
-.games-list {
+games-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.games-list li {
+games-list li {
     margin-bottom: 10px;
 }
-.additional-image {
+additional-image {
     display: flex;
     align-items: center; 
 }
-.additional-image img {
+additional-image img {
     max-width: 200px; 
     height: auto;
 }
-.additional-image .description {
+additional-image .description {
     margin-left: 20px; 
 }
 h2 {
