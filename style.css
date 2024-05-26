@@ -4,10 +4,12 @@ body {
     padding: 0;
     background-color: #f2f2f2;
 }
+
 header {
     text-align: center;
     position: relative;
 }
+
 header h1 {
     position: absolute;
     top: 50%;
@@ -17,9 +19,21 @@ header h1 {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
+
 header img {
     width: 100%;
 }
+
+.header-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
 nav {
     background-color: #333;
     color: #fff;
@@ -30,58 +44,28 @@ nav {
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 section {
     padding: 20px;
     text-align: justify;
 }
-game-images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-game-images img {
-    max-width: 150px;
-    height: auto;
-    margin: 10px;
-    transition: transform 0.3s ease;
-}
-game-images img:hover {
-    transform: scale(1.2); 
-}
-games-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-games-list li {
-    margin-bottom: 10px;
-}
-additional-image {
-    display: flex;
-    align-items: center; 
-}
-additional-image img {
-    max-width: 200px; 
-    height: auto;
-}
-additional-image .description {
-    margin-left: 20px; 
-}
+
 h2 {
     text-align: center;
     background-color: #333;
@@ -90,6 +74,7 @@ h2 {
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
 footer {
     background-color: #333;
     color: #fff;
